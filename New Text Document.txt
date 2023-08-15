@@ -1,0 +1,12 @@
+-----------------
+app.aab
+-----------------
+password => 123123
+
+java -jar bundletool.jar build-apks --bundle=./app.aab --output=./universal.apks --ks=./my-upload-key.keystore --ks-key-alias=my-key-alias --mode=universal
+
+=====================================================
+universal.apks (Rename ->) universal.zip (-> unzip
+=====================================================
+
+
